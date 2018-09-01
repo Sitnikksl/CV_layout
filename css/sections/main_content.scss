@@ -1,0 +1,313 @@
+main{
+	margin-top: rem(152px);
+}
+.left_content{
+	float: left;
+	width: rem(983px);
+	// text-align: center;
+}
+.user{
+	color: #000000;
+	text-align: center;
+	width: rem(555px);
+	margin: 0 auto;
+	margin-bottom: rem(165px);
+	margin-top: rem(23px);
+}
+
+	.user_logo{
+		width: rem(467px);
+		height: rem(467px);
+		border-radius: 50%;
+		margin: 0 auto;
+		border: rem(2px) solid #3d6cb0;
+		margin-left: rem(35px);
+	}
+		.user_logo-img{
+			width: rem(408px);
+			height: rem(408px);
+			background-color: #3d6cb0;
+			border-radius: 50%;
+			margin: 0 auto;
+			margin-top: rem(29px);
+		}
+	.user_name{
+		font-size: rem(104px);
+		text-transform: uppercase;
+		font-family: 'M11';
+	}
+	.user_sername{
+		font-family: 'Conv_Myriad-Pro-Bold';
+		font-size: rem(123px);
+		text-transform: uppercase;
+	}
+	.user_work{
+		font-family: 'Conv_Myriad-Pro-Bold';
+		font-size: rem(50px);
+		text-transform: uppercase;
+	}
+.profile{
+	width: rem(825px);
+}
+	.profile_head{
+		display: flex;
+		align-items: center;
+		&:after{
+				width: 100%;
+				height: rem(13px);
+				background-color: #3d6cb0;
+				content: '';
+				flex: 1 0 0;
+				display: block;
+				margin-left: rem(14px);
+			}
+	}
+		.profile_logo{
+			width: rem(148px);
+			height: rem(148px);
+			background-color: #fff;
+			border-radius: 50%;
+			margin-right: rem(43px);
+		}
+		.profile_img{
+			background-image: url('../img/PROFILE_ICON.png');
+			background-position: 50% 50%;
+			background-repeat: no-repeat;
+			background-size: contain;
+		}
+		.all_left_titles{
+			font-family: 'Conv_Myriad-Pro-Bold';
+			font-size: rem(82px);
+			color: #3d6cb0;
+			// display: flex;
+			align-items: center;
+			text-transform: uppercase;
+		}
+	.profile_content{
+
+	}
+		.profile_text{
+			font-family: 'Conv_Myriad-Pro-Regular';
+			font-size: rem(31px);
+		}
+.contact{
+	width: rem(825px);
+}
+	.contact_logo{
+		width: rem(148px);
+		height: rem(148px);
+		background-color: #fff;
+		border-radius: 50%;
+		margin-right: rem(43px);
+	}
+	.contact_img{
+		background-image: url('../img/Phone_Icon.png');
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	.contact_content{
+		
+	}
+		.contacts_list{
+			margin-left: 0;	
+		}
+			.contacts_list-item{
+				display: flex;
+				margin-bottom: rem(78px);
+			}
+				.contacts_list-item--left{
+					font-size: rem(41px);
+					font-family: 'Conv_Myriad-Pro-Bold';
+					color: #3d6cb0;
+					width: rem(258px);
+				}
+				.contacts_list-item--right{
+					font-size: rem(41px);
+					font-family: 'Conv_Myriad-Pro-Regular';
+					color: #000000;
+				}
+.skills{
+	width: rem(825px);
+}
+	.skills_logo{
+		width: rem(148px);
+		height: rem(148px);
+		// background-color: #3d6cb0;
+		border-radius: 50%;
+		margin-right: rem(43px);
+	}
+	.skills_img{
+		background-image: url('../img/SKILLS_ICON.png');
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	.skills_list{
+		text-align: center;
+		margin-bottom: rem(52px);
+		margin-top: rem(58px);
+	}
+		.skills_item{
+		
+		}
+			.skills_item-title{
+				font-size: rem(51px);
+				font-family: 'Conv_Myriad-Pro-Regular';
+				color: #000000;
+				text-transform: uppercase;
+			}
+			.skills_progress{
+				display: flex;
+				justify-content: center;
+			}
+			.skills_progress_circle{
+				width: rem(38px);
+				height: rem(38px);
+				background-color: #e6e6e6;
+				border-radius: 50%;
+				margin-left: rem(17px);
+			}
+			.circle-active{
+				background-color: #3d6cb0;
+			}
+.right_content{
+	float: left;
+	// margin-left: 150px;
+}
+	.education{
+		width: rem(1266px);
+	}
+		.edu_img{
+			background-image: url('../img/edu_star.png');
+			background-position: 50% 50%;
+			background-repeat: no-repeat;
+			background-size: contain;
+		}
+		.edu_list{
+			margin-top: rem(64px);
+			margin-left: rem(23px);
+		}
+			.edu_list-item{
+
+			}
+				.edu_list-item--left{
+					width: rem(42px);
+					height: rem(42px);
+					background-color: #000000;
+					border-radius: 50%;
+					float: left;
+				}
+				.edu_list-item--right{
+					float: left;
+					width: rem(1130px);
+					margin-left: rem(42px);
+				}
+					.edu_item-title{
+						color: #020202;
+						font-family: 'Conv_Myriad-Pro-Regular';
+						font-size: rem(51px);
+						line-height: 0.9;
+					}
+					.master_degree{
+						text-transform: uppercase;
+						color: #3d6cb0;
+						font-family: 'Conv_Myriad-Pro-Bold';
+					}
+					.univ_name{
+						color: #020202;
+						font-family: 'Conv_Myriad-Pro-Regular';
+						font-size: rem(51px);
+					}
+					.edu_item-text{
+						color: #000000;
+						font-size: rem(31px);
+						margin-top: rem(31px);
+						width: rem(1120px);
+						font-family: 'Conv_Myriad-Pro-Regular';
+					}
+	.exp{
+		width: rem(1266px);
+	}
+		.exp_logo{
+			background-image: url('../img/EXPERIENCE_ICON.png');
+			background-position: 50% 50%;
+			background-repeat: no-repeat;
+			background-size: contain;
+		}
+		.exp_list{
+			margin-top: rem(64px);
+			margin-left: rem(23px);
+		}
+			.exp_item{
+
+			}
+				.exp_list-item--left{
+					width: rem(42px);
+					height: rem(42px);
+					background-color: #000000;
+					border-radius: 50%;
+					float: left;
+				}
+				.exp_list-item--right{
+					float: left;
+					width: rem(1130px);
+					margin-left: rem(42px);
+				}
+					.exp_item-title{
+						color: #020202;
+						font-family: 'Conv_Myriad-Pro-Regular';
+						font-size: rem(51px);
+						line-height: 0.9;
+					}
+					.company_name{
+						text-transform: uppercase;
+						color: #000000;
+						font-family: 'Conv_Myriad-Pro-Bold';
+					}
+					.univ_name{
+						color: #020202;
+						font-family: 'Conv_Myriad-Pro-Regular';
+						font-size: rem(51px);
+					}
+					.exp_item-text{
+						color: #000000;
+						font-size: rem(31px);
+						margin-top: rem(31px);
+						width: rem(1120px);
+						font-family: 'Conv_Myriad-Pro-Regular';
+					}
+	.soft_list{
+		width: rem(1254px);
+	}
+		.soft_logo{
+			background-image: url('../img/SOFTWARE_ICON.png');
+			background-position: 50% 50%;
+			background-repeat: no-repeat;
+			background-size: contain;
+		}
+		.soft_item{
+			float: left;
+			margin-right: rem(135px);
+			margin-top: rem(56px);
+		}
+		.soft_item:nth-child(2n){
+			margin-right: 0;
+		}
+			.soft_item-title{
+				color: #000000;
+				text-transform: uppercase;
+				font-family: 'Conv_Myriad-Pro-Regular';
+				font-size: rem(51px);
+			}
+			.soft_item-bar--wrap{
+				width: rem(556px);
+				height: rem(48px);
+				background-color: #e6e6e6;
+			}
+			.soft-item-bar{
+				width: rem(556px);
+				height: rem(48px);
+				background-color: #3d6cb0;
+			}
+	
